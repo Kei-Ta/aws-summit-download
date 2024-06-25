@@ -17,7 +17,7 @@
 
 1. リポジトリをクローン
 ```bash
-git clone https://github.com/yourusername/aws-summit-dl.git
+git clone https://github.com/Kei-Ta/aws-summit-download.git
 cd aws-summit-dl
 ```
 2. 依存関係をインストール
