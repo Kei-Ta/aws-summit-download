@@ -9,7 +9,7 @@
 - ダウンロードしたファイルをローカルディレクトリに保存します。
 
 ## 前提条件
-
+- Mac OS
 - [Node.js](https://nodejs.org/) (バージョン20.12.2以上)
 - [Chrome WebDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 
@@ -30,10 +30,10 @@ npm install
 ```
 touch .env
 ```
-ログイン資格情報を記述します
+ログイン資格情報を記述します。(エスケープが必要な文字がある場合はシングルクォートで囲ってください。)
 ```bash
-USERNAME=your_username
-PASSWORD=your_password
+USERNAME='your_username'
+PASSWORD='your_password'
 ```
 ## 使用方法
 Node.jsを使用してスクリプトを実行します
